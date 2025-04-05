@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    background-color: rgb(113, 111, 108);
+    display: grid;
+    place-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .weather-app {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 350px;
+    text-align: center;
+  }
+  .weather-app h1 {
+    font-size: 25px;
+    color: rgb(76, 74, 71);
+    margin-bottom: 20px;
+  }
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  #inputBox {
+    padding: 10px;
+    border: 1px solid rgb(63, 57, 48);
+    border-radius: 5px;
+    font-size: 16px;
+    flex: 1;
+  }
+  button {
+    padding: 10px;
+    background: rgb(164, 161, 158);
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .weather-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 10px auto;
+  }
+  .weather-result p,
+  .weather-result h2 {
+    margin: 5px 0;
+  }
+  
